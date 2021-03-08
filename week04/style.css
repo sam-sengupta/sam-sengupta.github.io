@@ -1,0 +1,31 @@
+body{
+    background-image: url('city.JPG');
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+}
+
+.images {
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 50px;
+}
+/* .movies {
+    color: black
+}
+
+.shows {
+    color: black
+}
+
+.books {
+    color: black
+}
+
+.music {
+    color: black
+} */
+
