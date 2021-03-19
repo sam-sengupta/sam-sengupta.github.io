@@ -1,0 +1,45 @@
+body{
+    background-image: url('7.jpg');
+    background-size: 100% 350%;
+    background-repeat:no-repeat;
+}
+#main {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black; 
+    display: flex;
+    align-items: center;
+}
+#main div {
+    flex: 1;
+}
+
+
+a.menu {
+    background-color: rgba(4, 4, 4, 0.358);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: rgba(238, 230, 196, 0.872);
+    font-size: 20px;
+    padding: 20px;
+    display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background:rgba(241, 211, 211, 0.406);}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 300px;
+  display: none;
+}
+ul li ul li { 
+  background:rgba(241, 211, 211, 0.406); 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background:rgba(238, 230, 196, 0.872);}
