@@ -6,12 +6,20 @@ div.headings {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgba(238, 230, 196, 0.872);
     font-size: 900%;
-    line-height: 0.8;
-    font-kerning:initial;
-    font-stretch: extra-expanded;
     position: relative;
     top: 300px;
     width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    div.headings {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgba(238, 230, 196, 0.872);
+        font-size: 200%;
+        position: relative;
+        top: 270%;
+        width: 50%;
+    }
 }
 
 a:link {

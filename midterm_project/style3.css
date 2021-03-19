@@ -2,6 +2,12 @@ body{
     background-color: rgba(47, 25, 67, 0.858);
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+    }
+}
+
 a.menu {
     background-color: rgba(4, 4, 4, 0.358);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -32,27 +38,29 @@ ul li ul li a {display:block !important;}
 ul li ul li:hover {background:rgba(238, 230, 196, 0.872);}
 
 img:hover {
-    color: rgba(241, 211, 211, 0.406);
-    background-color: transparent;
-    text-decoration: none;
+  padding: 20px;
+  background-color: transparent;
+  transition: transform .2s;
+  width: 100%;
+  height: 60%;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
  
 .column {
-    float: left;
-    width: 25%;
-    padding: 10px;
+  float: left;
+  width: 25%;
+  padding: 10px;
 }
   
 .column img {
-    margin-top: 12px;
+  margin-top: 12px;
 }
   
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
