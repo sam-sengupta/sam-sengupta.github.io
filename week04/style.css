@@ -1,31 +1,38 @@
 body{
     background-image: url('city.JPG');
-    background-size: 100% 150%;
-    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    background-repeat:repeat;
 }
 
-.images {
-    color: whitesmoke;
-    font-size: 50px;
+#main {
+    width: 80%;
+    height: 200px;
+    display:flex;
+    align-items: center;
+    padding-left: 2%;
+    margin: -5px;
+    flex-wrap:nowrap;
+}
+#main div {
+    flex: 1;
 }
 
-h2 {
-    color: whitesmoke;
-    font-size: 50px;
-}
-/* .movies {
-    color: black
-}
-
-.shows {
-    color: black
+h1 {
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 20px;
 }
 
-.books {
-    color: black
+mark { 
+    background-color: black;
+    color: rgb(179, 6, 6);
 }
 
-.music {
-    color: black
-} */
-
+img:hover {
+    padding: 20px;
+    background-color: transparent;
+    transition: transform .2s;
+    width: 70%;
+    height: 70%;
+  }
