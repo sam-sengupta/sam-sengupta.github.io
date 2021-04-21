@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+button {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding:20px;
+    text-align: center;
+    color: rgba(194, 192, 189, 0.972);
+    height:100px;
+    width:200px;
+    border-width: 0; 
+    background-color:rgb(80, 43, 43);
+    position: absolute;
+    top: 650px;
+    right: 43%;
+}
+
+button:hover {
+    background-color: rgba(97, 6, 6, 0.438);
+}
+
+img {
+    padding: 5%;
+}
+
+p {
+    position: absolute;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgba(194, 192, 189, 0.972);
+    top: 130px;
+    left: 60%;
+    right: 10%;
+    text-align:justify;
+}
+
+h1 {
+    position: absolute;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 150;
+    color: rgb(80, 43, 43);
+    top: 40px;
+    left: 60%;
+    right: 10%;
+    text-align:justify;
+}
