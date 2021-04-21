@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(185, 164, 221);
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+button {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border: 0px transparent;
+    border-radius: 50%;
+    margin: 4px;
+    padding: 4px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight:bolder;
+    color: black;
+}
+
+.reset {
+    padding: 8px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    height:60px;
+    width:120px;
+    border-width: 0;
+    border-radius: 50%;
+}
+
+.reset:hover {
+    opacity: 0.8;
+}
