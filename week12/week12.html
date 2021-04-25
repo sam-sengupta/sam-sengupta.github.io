@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <title>Finals Proposal</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <script src="sketch.js" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="theSlides">
+                <div class="numberText">1 / 3</div>
+                <img src="black.jpg" style="width:100%">
+                <div class="text">
+                    <p>TEXTING GAME:</p>
+                    <ul>
+                        <li>Text-message game, pick your own adventure horror game.</li>
+                        <li>Screenshotted images of texts in the center, user can pick which option they want.</li>
+                        <li>Uses JQuery and SoundJS libraries.</li>
+                        <li>I will try to make the texting experience as realistic as possible by making it look like real text messages.</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="theSlides">
+                <div class="numberText">2 / 3</div>
+                <img src="black.jpg" style="width:100%">
+                <div class="text">
+                    <p>STORY:</p>
+                    <ul>
+                        <li>Starts off with a message of "Do you want to play Truth or Dare?" from an anonymous number.</li>
+                        <li>Story progresses (as shown below) as the user picks their options with the buttons.</li>
+                        <li>All the options lead to the same ending, which is from a 911 call from the police that they have to accept, audio changes according to the button pressed (I will import audio for the call on YouTube).</li>
+                    </ul>
+                    <img src="story.jpg" style="width:40%; position:absolute; margin-left: 25%;">
+                </div>
+            </div>
+    
+            <div class="theSlides">
+                <div class="numberText">3 / 3</div>
+                <img src="black.jpg" style="width:100%">
+                <div class="text">
+                    <p>WIREFRAME:</p>
+                    <ul>
+                        <li>"Phone" area acts as a gallery, switch through it with JQuery attr() and .delay() functions.</li>
+                        <li>Buttons take you to different actions with JQuery button clicked functions.</li>
+                        <li>Audio changes with the button pressed functions, used with the SoundJS library, might include ambient sounds if possible, as if user is using is listening in with earphones.</li>
+                    </ul>
+                    <img src="wireframe.JPG" style="width:40%; position:absolute; margin-left: 25%;">
+                </div>
+            </div>
+            <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div><br>
+    </body>
+</html>
