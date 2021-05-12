@@ -33,7 +33,7 @@ img {
     color: black;
     height:30px;
     border-width: 0; 
-    background-color:rgba(255, 255, 255, 0);
+    background-color:rgba(0, 0, 0, 0);
 }
 .a:hover {
     opacity: 0.2;
@@ -72,12 +72,12 @@ img {
 .home {
     position: absolute;
     top: 250px;
-    right: 25%;
+    right: 20%;
 }
 .study {
     position: absolute;
     top: 250px;
-    right: 11%;
+    right: 7%;
 }
 .yes {
     position: absolute;
@@ -94,31 +94,3 @@ img {
     top: 350px;
     right: 25%;
 }
-
-/* .input {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: rgba(255, 255, 255, 0.493);
-    height:25px;
-    width: 210px;
-    border-width: 0; 
-    background-color:rgb(22, 21, 21);
-    position: absolute;
-    top: 75%;
-    right: 40%;
-} */
-
-/* .reset {
-    padding: 8px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-align: center;
-    height:60px;
-    width:120px;
-    border-width: 0;
-    border-radius: 50%;
-}
-
-.reset:hover {
-    opacity: 0.8;
-} */
